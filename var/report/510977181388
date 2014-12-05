@@ -1,0 +1,21 @@
+a:5:{i:0;s:179:"Invalid method Mage_Customer_Block_Account_Navigation::removeLinkByName(Array
+(
+    [0] => billing_agreements
+    [1] => sales/billing_agreement/
+    [2] => Billing Agreements
+)
+)";i:1;s:1920:"#0 [internal function]: Varien_Object->__call('removeLinkByNam...', Array)
+#1 [internal function]: Mage_Customer_Block_Account_Navigation->removeLinkByName('billing_agreeme...', 'sales/billing_a...', 'Billing Agreeme...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/magento/includes/src/__default.php(27869): call_user_func_array(Array, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/magento/includes/src/__default.php(27735): Mage_Core_Model_Layout->_generateAction(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#4 /Applications/XAMPP/xamppfiles/htdocs/magento/includes/src/__default.php(27731): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#5 /Applications/XAMPP/xamppfiles/htdocs/magento/includes/src/__default.php(13941): Mage_Core_Model_Layout->generateBlocks()
+#6 /Applications/XAMPP/xamppfiles/htdocs/magento/includes/src/__default.php(13866): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#7 /Applications/XAMPP/xamppfiles/htdocs/magento/app/code/core/Mage/Customer/controllers/AccountController.php(107): Mage_Core_Controller_Varien_Action->loadLayout()
+#8 /Applications/XAMPP/xamppfiles/htdocs/magento/includes/src/__default.php(14015): Mage_Customer_AccountController->indexAction()
+#9 /Applications/XAMPP/xamppfiles/htdocs/magento/includes/src/__default.php(18399): Mage_Core_Controller_Varien_Action->dispatch('index')
+#10 /Applications/XAMPP/xamppfiles/htdocs/magento/includes/src/__default.php(17933): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#11 /Applications/XAMPP/xamppfiles/htdocs/magento/includes/src/__default.php(20705): Mage_Core_Controller_Varien_Front->dispatch()
+#12 /Applications/XAMPP/xamppfiles/htdocs/magento/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/magento/index.php(87): Mage::run('', 'store')
+#14 {main}";s:3:"url";s:26:"/magento/customer/account/";s:11:"script_name";s:18:"/magento/index.php";s:4:"skin";s:7:"default";}
