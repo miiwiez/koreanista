@@ -57,7 +57,7 @@ abstract class Mage_ImportExport_Model_Export_Adapter_Abstract
     final public function __construct($destination = null)
     {
         if (!$destination) {
-            $destination = tempnam(sys_get_temp_dir(), 'importexport_');
+            $destination = tempnam(Mage::getBaseDir() . '/var/tmp/' , 'importexport_');
         }
         if (!is_string($destination)) {
             Mage::throwException(Mage::helper('importexport')->__('Destination file path must be a string'));
